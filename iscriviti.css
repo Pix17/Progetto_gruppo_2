@@ -1,3 +1,7 @@
+body {
+    background-color: #011212;
+;
+}
 #greenunderscored {
     color:green;
     text-decoration: underline;

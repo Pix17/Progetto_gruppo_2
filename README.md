@@ -1,1 +1,1 @@
-# Progetto_ruppo_2
+# Progetto_gruppo_2

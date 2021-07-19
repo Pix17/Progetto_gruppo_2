@@ -1,0 +1,34 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+hr.solid {
+    border-top: 1px solid #d9dadc ;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+
+.divider {
+    border-top: 1px solid #d9dadc;
+    display: block;
+    line-height: 1px;
+    margin: auto;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.lettera {
+    background: #fff;
+    font-size: 12px;
+    
+    padding: 0 20px;
+    text-transform: uppercase;
+}

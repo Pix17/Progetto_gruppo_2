@@ -1,12 +1,46 @@
 body {
-    background-color: #011212;
-;
+    font-family:  Helvetica, Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    text-justify: inter-word;
+    
 }
 #greenunderscored {
     color:green;
     text-decoration: underline;
       }
 
+#fbbutton {   
+    margin: 45px;
+    
+}     
+#fblink{
+    
+    border-radius: 45px;
+    padding: 15px;
+    background-color: #3b5998;
+    color: white;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 0ms;
+}
+#fblink:hover{
+    font-size: 20px;
+}
+#lineoppure {
+    width: 20%;
+    line-height: 0.5px;
+    margin: auto;
+    border-top:  1px solid gray;
+    position:relative;
+    text-align: center;
+}
+#textoppure{
+    background-color: white;
+    margin:;
+    width: 10px;
+    letter-spacing: 2px;
+}
 .testiform{
     font-size: 14px;
     font-family: Helvetica, Arial, sans-serif;   
@@ -14,6 +48,7 @@ body {
 }
 .informativa{
     font-size: 12px;
+    
 }     
 h1{
     color:green;

@@ -1,3 +1,9 @@
+.spotify_logo {
+    display:block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .center {
     display: block;
     margin-left: auto;
@@ -20,7 +26,7 @@ hr.solid {
     line-height: 1px;
     margin: auto;
     position: relative;
-    width: 50%;
+    width: 36%;
     text-align: center;
     
 }
@@ -28,7 +34,89 @@ hr.solid {
 .lettera {
     background: #fff;
     font-size: 12px;
-    
     padding: 0 20px;
     text-transform: uppercase;
 }
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+#ignora {
+    all: unset;
+}
+
+#dimenticato {
+    display: block;
+    margin-top: 10px;
+}
+
+.account {
+   text-align: center;
+}
+
+.accedi {
+    text-align: right;
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+h1  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 18px;
+    color: #222326;
+    
+}
+
+.font  {
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 24px;
+   color: #222326;
+   /*non funziona */
+   font-size: 16px;
+}
+
+.facebook {
+    background-color: #3a61b3;
+    padding: 13px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.facebook :hover {
+background-color: aqua;
+}
+
+.apple {
+    background-color: #3a61b3;
+    padding: 13px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.google {
+    background-color: #3a61b3;
+    padding: 13px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+a {
+    text-decoration: none;
+    
+}
+
+

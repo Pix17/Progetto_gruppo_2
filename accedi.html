@@ -4,40 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listening is Everything - Spotify</title>
+    <title>Accedi - Spotify</title>
     <link rel="stylesheet" href="accedi.css">
 </head>
 <body>
-        <img src="pngwing.com.png" alt="logo spotify" height="200" width="200" class="center">
+        <img src="Spotify_Logo_CMYK_Black.png" alt="logo spotify" class="spotify_logo">
         <hr class="solid">
         <div class="content">
         <h1>Per continuare, accedi a Spotify.</h1>
-          <p><a href="https://www.facebook.com/">Continua con Facebook</a></p>
-          <p><a href="https://secure4.store.apple.com/it/shop/signIn?c=aHR0cHM6Ly93d3cuYXBwbGUuY29tL2l0L3wxYW9zZTdjMjdlMDVhOWQ1MjhmMGI0OTJhMjJhYjc0YmZlZTlhOTQ5MDQ2MQ&r=SCDHYHP7CY4H9XK2H&s=aHR0cHM6Ly93d3cuYXBwbGUuY29tL2l0L3wxYW9zZTdjMjdlMDVhOWQ1MjhmMGI0OTJhMjJhYjc0YmZlZTlhOTQ5MDQ2MQ">Continua con Apple</a></p>
-          <p><a href="https://myaccount.google.com/?utm_source=account-marketing-page&utm_medium=go-to-account-button&pli=1">Continua con Google</a></p>
+          <p><button class="facebook"><a href="https://www.facebook.com/">Continua con Facebook</a></button></p>
+          <p><button class="apple"><a href="https://secure4.store.apple.com/it/shop/signIn?c=aHR0cHM6Ly93d3cuYXBwbGUuY29tL2l0L3wxYW9zZTdjMjdlMDVhOWQ1MjhmMGI0OTJhMjJhYjc0YmZlZTlhOTQ5MDQ2MQ&r=SCDHYHP7CY4H9XK2H&s=aHR0cHM6Ly93d3cuYXBwbGUuY29tL2l0L3wxYW9zZTdjMjdlMDVhOWQ1MjhmMGI0OTJhMjJhYjc0YmZlZTlhOTQ5MDQ2MQ">Continua con Apple</a></button></p>
+          <p><button class="google"><a href="https://myaccount.google.com/?utm_source=account-marketing-page&utm_medium=go-to-account-button&pli=1">Continua con Google</a></button></p>
         </div>
         <div class="divider">
             <strong class="lettera">o</strong>
         </div>
             <form>
                 <div class="content">
-                <label for="email/username">Indirizzo e-mail o username</label>
+                <label class="font" for="email/username">Indirizzo e-mail o username</label>
                 <input type="email" name="email/username" id="email/username" required>
                 </div>
                 <div class="content">
-                    <label for="passw">Password</label>
+                    <label class="font" for="passw">Password</label>
                     <input type="password" name="passw" id="passw" required>
                 </div>
             </form>
             <div class="content">
-                <a href="https://www.spotify.com/it/password-reset/">Hai dimenticato la password?</a>
+                <a id="" href="https://www.spotify.com/it/password-reset/">Hai dimenticato la password?</a>
             </div>
             <div class="content">
                 <input type="checkbox" name="ricordami" id="ricordami" checked>
-                <label for="ricordami">Ricordami</label>
+                <label for="ricordami" id="ignora">Ricordami</label>
             </div>
-            <div class="content">
+            <div class="accedi">
                 <button type="submit">Accedi</button>
+            </div>
+            <div class="divider"></div>
+            <div class="content">
+                <p class="account">Non hai un account?</p>
+            </div>
+            <div class="account">
+             <button><a href="#">Iscriviti a Spotify</a></button>
             </div>
     </body>
 </html>

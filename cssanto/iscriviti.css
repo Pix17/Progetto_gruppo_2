@@ -3,19 +3,27 @@ body {
     background-color: white;
     text-align: center;
     text-justify: inter-word;
+    position: ;
+    display: ;
     
 }
-#greenunderscored {
-    color:green;
+.greenunderscored {
+    text-decoration-color: green;
+    color: green;
     text-decoration: underline;
       }
-
+#logolink{
+    width: 131px;
+    height: 38px;
+}
 #fbbutton {   
     margin: 45px;
     
 }     
 #fblink{
-    
+    text-decoration: none;
+    position: ;
+    display: inline-block;
     border-radius: 45px;
     padding: 15px;
     background-color: #3b5998;
@@ -23,9 +31,12 @@ body {
     font-weight: bold;
     transition-property: all;
     transition-duration: 0ms;
+    transition: all .2s ease-in-out;
 }
 #fblink:hover{
-    font-size: 20px;
+    transform: scale(1.2);
+    position: ;
+    font-size: ;
 }
 #lineoppure {
     width: 20%;
@@ -53,3 +64,22 @@ body {
 h1{
     color:green;
 }      
+#iscriviti{
+    margin: 10px;
+    position: ;
+    display: inline-block;
+    border-radius: 45px;
+    padding: 15px;
+    background-color: #00bb2d;
+    color: white;
+    font-weight: bold;
+    border-color: #00bb2d;
+    transition-property: all;
+    transition-duration: 0ms;
+    transition: all .2s ease-in-out;
+}
+#iscriviti:hover{
+    position: atic;
+    font-size: ;
+    transform: scale(1.2);
+}

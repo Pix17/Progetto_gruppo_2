@@ -1,29 +1,46 @@
+html{
+    display: block ;
+    margin: auto;
+}
 body {
+  margin: 40px auto;
+  max-width: 450px;
     font-family:  Helvetica, Arial, sans-serif;
     background-color: white;
-    text-align: justify;
+    text-align: left;
     text-justify: inter-word;
     position:;
     display: ; 
-
+    letter-spacing: 0.25px;
 }
-
+h1{
+    margin: 40px auto;
+    text-align: center;
+    font-size: 32px;
+    line-height: 36px;
+}
 .greentext {
     color:#00bb2d;
     text-decoration: underline;
       }
 
 #logolink{
+    display: block;
+    margin: auto;
     width: 131px;
     height: 38px;
+}
+#logolinklink{
+    
 }
 
 #fbbutton {   
     margin: 36px;
-    
+    text-align: center;
 }  
 
 #fblink{
+    width: 200px;
     text-decoration: none;
     position: ;
     display: inline-block;
@@ -43,8 +60,12 @@ body {
     font-size: ;
 }
 
+#accetto1{ 
+font-size: 14px;
+}
+
 #lineoppure {
-    width: 20%;
+    width: 80%;
     line-height: 0.5px;
     margin: auto;
     border-top:  1px solid lightgray;
@@ -53,6 +74,7 @@ body {
 }
 
 #textoppure{
+    border: 0,5px;
     background-color: white;
     margin:;
     width: 10px;
@@ -60,13 +82,17 @@ body {
 }
 
 .boxes {
+    margin: 0 auto;
+    max-width: 450px;
+    padding: ;
     border-radius: 5px;
     margin: 15px;
-width: 402px;
-height: 52px;
+    width: 402px;
+    height: 45px;
 }
 
 .testiform{
+    margin: 20px auto;
     font-size: 14px;
     font-family: Helvetica, Arial, sans-serif;   
      font-weight: bold
@@ -76,13 +102,73 @@ height: 52px;
     font-size: 12px;  
 }  
 
+#dateset {
+    margin: 20px auto;
+    display: block;
+}
+
+.annomesegiornotext{
+    padding: 50px;
+    margin: 50px auto;
+    text-align:left;
+}
+
+#sessotext{
+    margin-bottom:  20px;
+    display: block;
+}
+
+#maschio {
+    display: inline;
+    padding: 50px;
+    margin-left: 20px;
+}
+
+#femmina {
+    display: inline;
+    padding: 50px;
+    margin-left: 20px;
+}
+
+#nonbinario{
+    display: inline;
+    padding: 50px;
+    margin-left: 20px;
+}
+
+#offerteenovita{
+    margin: 20px auto;
+}
+
+#condividibla{
+    max-width: fit-content;
+    display: block;
+    margin: 20px auto;
+    font-size:;
+}
+#labelcondividi {
+    font-size: 14px;
+    letter-spacing: 0,25px;
+}
+
+#accetto {
+    display: block;
+    margin: 20px auto;
+}
+
+#persaperne{
+    text-align: left;
+}
+
 #iscriviti{
-    margin: 10px;
-    display: inline-block;
+    width: 150px;
+    text-align:;
+    margin: 15px auto;
+    display: block;
     border-radius: 45px;
-    padding: 15px;
-    background-color: #00bb2d;
-    color: white;
+    padding: 25px;
+    background-color: #1ed760;
+    color: black;
     font-weight: bold;
     border: none;
     transition-property: all;
@@ -94,4 +180,7 @@ height: 52px;
     position: atic;
     font-size: ;
     transform: scale(1.2);
+}
+h4{
+    text-align: center;
 }

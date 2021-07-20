@@ -1,83 +1,95 @@
 body {
     font-family:  Helvetica, Arial, sans-serif;
     background-color: white;
-    text-align: center;
+    text-align: justify;
     text-justify: inter-word;
-    position: ;
-    display: ;
-    
+    position:;
+    display: ; 
+
 }
-.greenunderscored {
-    text-decoration-color: green;
-    color: green;
+
+#greenunderscored {
+    color:#00bb2d;
     text-decoration: underline;
       }
+
 #logolink{
     width: 131px;
     height: 38px;
 }
+
 #fbbutton {   
-    margin: 45px;
+    margin: 36px;
     
-}     
+}  
+
 #fblink{
     text-decoration: none;
     position: ;
     display: inline-block;
     border-radius: 45px;
     padding: 15px;
-    background-color: #3b5998;
+    background-color: #1877F2 ;
     color: white;
     font-weight: bold;
     transition-property: all;
     transition-duration: 0ms;
     transition: all .2s ease-in-out;
 }
+
 #fblink:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     position: ;
     font-size: ;
 }
+
 #lineoppure {
     width: 20%;
     line-height: 0.5px;
     margin: auto;
-    border-top:  1px solid gray;
+    border-top:  1px solid lightgray;
     position:relative;
     text-align: center;
 }
+
 #textoppure{
     background-color: white;
     margin:;
     width: 10px;
     letter-spacing: 2px;
 }
+
+.boxes {
+    border-radius: 5px;
+    margin: 15px;
+width: 402px;
+height: 52px;
+}
+
 .testiform{
     font-size: 14px;
     font-family: Helvetica, Arial, sans-serif;   
      font-weight: bold
 }
+
 .informativa{
-    font-size: 12px;
-    
-}     
-h1{
-    color:green;
-}      
+    font-size: 12px;  
+}  
+
 #iscriviti{
     margin: 10px;
-    position: ;
     display: inline-block;
     border-radius: 45px;
     padding: 15px;
     background-color: #00bb2d;
     color: white;
     font-weight: bold;
-    border-color: #00bb2d;
+    border: none;
     transition-property: all;
     transition-duration: 0ms;
     transition: all .2s ease-in-out;
 }
+
 #iscriviti:hover{
     position: atic;
     font-size: ;

@@ -26,7 +26,6 @@
         <nav id="fbbutton">
        <a id="fblink" href="https://www.facebook.com/"  >Iscriviti con facebook</a>
         </nav>
-
         <input type="checkbox" name="fbconditions" required>
         <label for="terminiecondizioni"> Accetto i <a id="greenunderscored" href="https://www.spotify.com/it/legal/privacy-policy/">termini e condizioni d`uso di Spotify</a>.</label><br><br>
     </form>
@@ -37,16 +36,18 @@
     <form>    
         <h3>Iscriviti con il tuo indirizzo e-mail</h3>
         <div><label for="mail" class="testiform">Qual è il tuo indirizzo e-mail?</label><br>
-        <input type="email" name="mail" id="mail" required> </div>
+        <input type="email" name="mail" id="mail" class="boxes" placeholder="  Inserisci la tua e-mail." required> </div>
         <div><label for="confmail" class="testiform">Conferma la tua e-mail</label><br>
-            <input type="email" name="confmail" id="confmail" required></div>
+            <input type="email" name="confmail" id="confmail" class="boxes" placeholder="  Inserisci nuovamente la tua e-mail." required></div>
         <div><label for="password" class="testiform" >Crea una password</label><br>
-            <input type="password" name="password" id="password" pattern="[a-z]{1}[a-z_]{2,19}" required></div>
+            <input type="password" name="password" id="password" class="boxes" pattern="[a-z]{1}[a-z_]{2,19}" placeholder="  Crea una password." required></div>
         <div><label for="nomeprofilo" class="testiform">Come ti dobbiamo chiamare?</label><br>
-        <input type="text" name="nomeprofilo" id="nomeprofilo" required></div>
+        <input type="text" name="nomeprofilo" id="nomeprofilo" class="boxes" placeholder="  Inserisci un nome del profilo." required></div>
         <div>
             <label for="datacompleanno" class="testiform">Qual è la data del tuo compleanno?</label><br>
+            <label for="anno">Anno</label><br>
             <input type="text" inputmode="numeric" id="anno" name="anno" maxlength="4" pattern="[0-9]{4}" placeholder="AAAA" required>
+            <label for="mese">Mese</label>
             <select name="mese" id="mese" required>
                 <option value="">Mese</option>
                 <option value="01">Gennaio</option>
@@ -62,6 +63,7 @@
                 <option value="11">Novembre</option>
                 <option value="12">Dicembre</option>
             </select>
+            <label for="giorno">Giorno</label>
             <input type="text"  id="giorno" name="giorno" maxlength="2" placeholder="GG" pattern="[0-9]{1,2}" required>
         </div>
         <div><label for="sesso">Di che sesso sei?</label><br>

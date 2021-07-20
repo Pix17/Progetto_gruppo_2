@@ -8,7 +8,7 @@ body {
 
 }
 
-#greenunderscored {
+.greentext {
     color:#00bb2d;
     text-decoration: underline;
       }

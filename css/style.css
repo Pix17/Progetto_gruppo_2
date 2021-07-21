@@ -1,121 +1,143 @@
+:root{
+    --spotify-green: rgb(20, 213, 108);
+    --spotify-green-hover: rgb(30, 223, 118);
+    --spotify-grey: rgb(145, 148, 150);
+    --spotify-blue: rgb(42, 69, 167);
+}
 body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--spotify-blue);
     /* background-image:url("img/bursts.svg"); */
     background-image:url(https://www-growth.scdn.co/static/home/bursts.svg);
-    background-position-y: -40%;
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position-y: 40%;
     background-position-x: 40%;
-    background-size: 150%;
-    background-color: rgb(42, 69, 167);
-    size: 100%;
     margin: 0;
     padding: 0;
 }
 header{
     background-color: black;
-    margin: 0px;
-    height: 2em;
-}
-.menu{
-    float: right;
-    padding-top: 2em;
-    padding-right: 30em;
-}
-.marginright{
-    margin-right: 2em;
-}
-.marginleft{
-    padding-left: 20em;
-}
-.logo{
-    width: 10em;
-    height: 3em;
-}
-.margin1{
-    margin-left:1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-right: 1em;
-}
-.white{
+    height: 4em;
+    width: 100%;
+    padding-top: 1em;
     color: white;
 }
+
 main{
     height: 60em;
     padding-top: 5em;
-    padding-right: 13em;
-    float: right;
+    margin-left: 25%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#sup{
-    color: rgb(20, 213, 108);
-    font-size: 8em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight:900;
-    float: right;
+
+main h1 {
+    font-size: 10em;
+    font-weight:bolder;
+    letter-spacing: -9px ;
+    color: var(--spotify-green);
 }
-#sub{
-    color: rgb(20, 213, 108);
-    font-family: Arial, Helvetica, sans-serif;
+.spostato{
+    margin-top: -1em;
+    margin-left: 2em;
 }
-.button{
-   width: 13em;
-   height: 1em;
-   border-top-left-radius: 2em;
-   border-bottom-left-radius: 2em;
-   border-top-right-radius: 2em;
-   border-bottom-right-radius: 2em;
-   border: 0px;
-   padding: 1em;
-   color:  rgb(42, 69, 167);
-   background-color: rgb(20, 213, 108);
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: bold;
-   font-size: 0.9em;
+
+main p{
+    margin-left: 23%;
+    margin-top: -3%;
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--spotify-green);
 }
-.button:hover{
-    width: 13.1em;
-    height: 1.1em;
-    border-top-left-radius: 2em;
-    border-bottom-left-radius: 2em;
-    border-top-right-radius: 2em;
-    border-bottom-right-radius: 2em;
-    border: 0px;
-    padding: 1em;
-    color:  rgb(42, 69, 167);
-    background-color: rgb(30, 223, 118);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 0.9em;
+ .button{
+     font-weight: 600;
+     font-size: 1em;
+     border-radius: 30px;
+     margin-left: 25%;
+     padding:.7em 1.7em .9em 1.7em;
+     width: fit-content;
+     color: var(--spotify-blue);
+     background-color: var(--spotify-green);
  }
+ .button:hover{
+     transform: scale(1.03);
+     background-color: var(--spotify-green-hover);
+ }
+
 footer{
     background-color: black;
     margin: 0px;
-    color: rgb(145, 148, 150);
+    color: var(--spotify-grey);
     font-family: sans-serif;
     padding-top: 3em;
 }
-.footerdiv{
-    background-color: black;
-    float: left;
-    width: 16%;
-    height: 15em;
+a{
+    text-decoration: none;
+    color:var(--spotify-grey);
 }
-.left{
-    padding-left: 10%;
+nav{
+    display: flex;
+    justify-content: space-around;
 }
-.right{
-    padding-right: 10%;
+.navfooter{
+    padding-right: 11%;
+    padding-left: 11%;
 }
+
+
+ul li{
+  display:inline-flex;
+  padding-right: 3em;
+}
+
+
+
+header nav ul li{
+    font-weight: bold;
+}
+
+
+.logo{
+    width: 9em;
+}
+
+
+
 dt{
     margin-top: 1em;
 }
 .social{
+    border-radius: 50%;
     width: 3em;
     height: 3em;
 }
+.social:hover{
+    background-color: var(--spotify-green-hover);
+}
 
-a{
+header a{
     color: white;
     font-family: sans-serif;
-    font-weight: bold;
     text-decoration: none;
 }
 
+dt a{
+    color: white;
+}
+
+
+a:hover{
+    color: var(--spotify-green-hover);
+}
+
+
+.mini{
+    font-size: 0.7em;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80%;
+}

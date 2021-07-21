@@ -5,7 +5,7 @@ html{
 body {
   margin: 40px auto;
   max-width: 450px;
-    font-family:  Helvetica, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: white;
     text-align: left;
     text-justify: inter-word;
@@ -16,8 +16,9 @@ body {
 h1{
     margin: 40px auto;
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 36px;
+    letter-spacing: 0,25px;
 }
 .greentext {
     color:#00bb2d;
@@ -35,12 +36,17 @@ h1{
 }
 
 #fbbutton {   
+    font-size: 18px;
+    letter-spacing: 0,25px;
+    font-weight: bold;
     margin: 36px;
     text-align: center;
 }  
 
 #fblink{
-    width: 200px;
+    border: 2px solid white;
+    width: 220px;
+    height: 55px;
     text-decoration: none;
     position: ;
     display: inline-block;
@@ -55,16 +61,26 @@ h1{
 }
 
 #fblink:hover{
+    background-color: #2784fb ;
     transform: scale(1.1);
     position: ;
     font-size: ;
 }
+
+#fblink:active {
+    background-color:;
+    border: 5px solid gray;
+}
+
 
 #accetto1{ 
 font-size: 14px;
 }
 
 #lineoppure {
+    position: relative;
+    margin: 100px auto;
+    display: block;
     width: 80%;
     line-height: 0.5px;
     margin: auto;
@@ -74,6 +90,7 @@ font-size: 14px;
 }
 
 #textoppure{
+    margin: 80px;
     border: 0,5px;
     background-color: white;
     margin:;
@@ -81,14 +98,28 @@ font-size: 14px;
     letter-spacing: 2px;
 }
 
-.boxes {
+h3{
+    margin: 30px;
+    text-align: center;
+}
+
+.boxes { 
+
+    border: 1.5px solid lightslategray;
+    border-color: lightslategray;
+    box-sizing: border-box;
+    cursor: text;
+    display: block;
     margin: 0 auto;
     max-width: 450px;
-    padding: ;
     border-radius: 5px;
-    margin: 15px;
+    margin: 12px 0;
     width: 402px;
-    height: 45px;
+    height: 54px;
+}
+
+.boxes:hover {
+    border: 1.5px solid black;
 }
 
 .testiform{
@@ -108,9 +139,44 @@ font-size: 14px;
 }
 
 .annomesegiornotext{
-    padding: 50px;
-    margin: 50px auto;
-    text-align:left;
+    
+}
+
+#annotext {
+margin-left: 12px;
+text-align: ;
+}
+
+#anno {
+    margin: 10px;
+    border: 1.5px solid lightslategray;
+    border-radius: 5px;
+    width: 105px;
+    height: 52px;
+}
+
+#mesetext {
+    margin-left: 97px;
+}
+
+#mese {
+    margin: 10px;
+    border: 1.5px solid lightslategray;
+    border-radius: 5px;
+    width: 180.9px;
+    height: 59px;
+}
+
+#giornotext {
+    margin-left: 160px;
+}
+
+#giorno {
+    margin: 10px;
+    border: 1.5px solid lightslategray;
+    border-radius: 5px;
+    width: 80px;
+    height: 52px;
 }
 
 #sessotext{
@@ -121,7 +187,8 @@ font-size: 14px;
 #maschio {
     display: inline;
     padding: 50px;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-bottom: 14px;
 }
 
 #femmina {
@@ -137,6 +204,7 @@ font-size: 14px;
 }
 
 #offerteenovita{
+    font-size: 14px;
     margin: 20px auto;
 }
 
@@ -152,15 +220,61 @@ font-size: 14px;
 }
 
 #accetto {
+    font-size: 14px;
     display: block;
     margin: 20px auto;
 }
 
+#boxrobot {
+    border-radius: 3px;
+    box-shadow: 1px 1px #f9f5f7;
+    border: 1px solid;
+    border-color: #deddde;
+    background-color: #fbfafb;
+    width: 280px;
+    height: 42px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#nonsonounrobotcheck {
+    display: inline-flex ;
+   margin-top: 15px;
+margin-bottom:;
+}
+
+#nonsonounrobot:hover{
+
+}
+
+#robotxt {
+    display:inline-flex ;
+    margin-bottom:;
+font-size: 14px;
+}
+
+#imgcaptcha {
+    display: inline-flex  ;
+    position: x ;
+    height: 50px;
+    margin-left: 210px;
+    margin-bottom:  500px;
+}
+
 #persaperne{
+    letter-spacing: 0,25px;
     text-align: left;
 }
 
+#tuoidatispan{
+    display: block;
+    position: ;
+    margin-left: ;
+    text-align: center;
+}
+
 #iscriviti{
+    letter-spacing: 0.5px;
     width: 150px;
     text-align:;
     margin: 15px auto;
@@ -177,10 +291,18 @@ font-size: 14px;
 }
 
 #iscriviti:hover{
+    background-color: #17de71;
     position: atic;
     font-size: ;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 h4{
+    margin-bottom: 150px;
     text-align: center;
+}
+.boxpazzo:hover {
+    color: aqua;
+    border-color: aqua;
+    text-decoration-color: aqua;
+
 }

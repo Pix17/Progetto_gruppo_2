@@ -2,24 +2,25 @@ html{
     display: block ;
     margin: auto;
 }
+
 body {
   margin: 40px auto;
   max-width: 450px;
     font-family: Arial, sans-serif;
     background-color: white;
     text-align: left;
-    text-justify: inter-word;
-    position:;
-    display: ; 
+    text-justify: inter-word; 
     letter-spacing: 0.25px;
 }
+
 h1{
     margin: 40px auto;
     text-align: center;
     font-size: 30px;
     line-height: 36px;
-    letter-spacing: 0,25px;
+    letter-spacing: 0.25px;
 }
+
 .greentext {
     color:#00bb2d;
     text-decoration: underline;
@@ -45,7 +46,7 @@ h1{
     font-size: 18px;
     letter-spacing: 0,25px;
     font-weight: bold;
-    margin: 36px;
+    margin: 30px;
     text-align: center;
 }  
 
@@ -54,7 +55,6 @@ h1{
     width: 220px;
     height: 55px;
     text-decoration: none;
-    position: ;
     display: inline-block;
     border-radius: 45px;
     padding: 15px;
@@ -85,17 +85,17 @@ font-size: 14px;
 
 #lineoppure {
     position: relative;
-    margin: 100px auto;
     display: block;
     width: 80%;
     line-height: 0.5px;
-    margin: auto;
+    margin: 15px auto;
     border-top:  1px solid lightgray;
     position:relative;
     text-align: center;
 }
 
 #textoppure{
+    color: lightslategray;
     margin: 80px;
     border: 0,5px;
     background-color: white;
@@ -132,7 +132,7 @@ h3{
     margin: 20px auto;
     font-size: 14px;
     font-family: Helvetica, Arial, sans-serif;   
-     font-weight: bold
+    font-weight: bold
 }
 
 .informativa{
@@ -342,16 +342,19 @@ h4{
 
 }
 
-.grecaptcha-badge {  
+#captchamove {  
     width: 256px;
-     height: 60px;
-      display: block;
-       transition: right 0.3s ease 0s;
-        position: fixed;
-         bottom: 14px;
-          right: -186px;
-           box-shadow: gray 0px 0px 5px;
-            border-radius: 2px;
-             overflow: hidden;
+    height: 60px;
+    display: block;
+    transition: right 0.3s ease 0s;
+    position: fixed;
+    bottom: 14px;
+    right: -186px;
+    box-shadow: gray 0px 0px 5px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+#captchamove:hover {
 
 }

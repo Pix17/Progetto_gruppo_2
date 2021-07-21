@@ -26,7 +26,7 @@
         </div>
     <form>
         <nav id="fbbutton">
-       <button onclick="window.location.href='https://www.facebook.com/v7.0/dialog/oauth?client_id=174829003346&response_type=code&scope=email%2Cuser_birthday%2Cpublic_profile%2Cuser_friends&redirect_uri=https%3A%2F%2Fwww.spotify.com%2Fsignup%2Ffacebook%2F'" id="fblink" href="https://www.facebook.com/" >Iscriviti con facebook</button>
+       <button onclick="window.location.href='https://www.facebook.com/v7.0/dialog/oauth?client_id=174829003346&response_type=code&scope=email%2Cuser_birthday%2Cpublic_profile%2Cuser_friends&redirect_uri=https%3A%2F%2Fwww.spotify.com%2Fsignup%2Ffacebook%2F'" id="fblink" >Iscriviti con facebook</button>
         </nav>
         <input class="boxpazzo" type="checkbox" name="fbconditions" required>
         <label id="accetto1" for="terminiecondizioni"> Accetto i <a class="greentext" href="https://www.spotify.com/it/legal/privacy-policy/">termini e condizioni d`uso di Spotify</a>.</label><br><br>
@@ -45,7 +45,7 @@
             <input type="password" name="password" id="password" class="boxes" pattern="[a-z]{1}[a-z_]{2,19}" placeholder="  Crea una password." required></div>
         <div><label for="nomeprofilo" class="testiform">Come ti dobbiamo chiamare?</label><br>
         <input type="text" name="nomeprofilo" id="nomeprofilo" class="boxes" placeholder="  Inserisci un nome del profilo." required>
-    <br>Questo appare sul tuo profilo.</div>
+                Questo appare sul tuo profilo.</div>
         <div id="dateset">
             <label id="completext" for="datacompleanno" class="testiform">Qual è la data del tuo compleanno?</label><br><br>
             <label class="annomesegiornotext" id="annotext" for="anno">Anno</label>
@@ -110,7 +110,7 @@
     <div>
         <h4>Hai un account?<a href="https://accounts.spotify.com/it/login?continue=https:%2F%2Fwww.spotify.com%2Faccount%2Foverview%2F&_ga=2.204684115.2115562029.1626357076-2114018614.1626357076" class="greentext">Accedi</a>.</h4>
     </div>
-    <div class="grecaptcha-badge"  >
+    <div id="captchamove"  >
         <img height="100%" width="65px" src="img/recaptcha-icon-01.png">
     </div>
 

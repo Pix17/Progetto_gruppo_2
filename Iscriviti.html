@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Antonio Platania">
+    <meta name="description" content="form di iscrizione spotify">
+
+    <meta property="og:image" content="https://developer.spotify.com/assets/branding-guidelines/logo@2x.png">
+    <meta property="og:description" content="Iscriviti su Spotify">
+    <meta property="og:type" content="Form di iscrizione">
+    <meta property="og:title" content="Iscriviti su Spotify">
+    <meta property="og:url"  content="Iscriviti.html">
+
+    <link rel="shortcut icon" href="https://www.scdn.co/i/_global/favicon.png">
+    <link href="cssanto/iscriviti.css" rel="stylesheet" type="text/css" >
+    <title>Iscriviti - Spotify</title>
+
+    
+</head>
+<body>
+        <a id="logolinklink" href="index.html"><img id="logolink" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Black.png"></a>
+        <div>
+        <h1>Iscriviti gratuitamente per<br> iniziare ad ascoltare.</h1>
+        </div>
+    <form>
+        <nav id="fbbutton">
+       <button id="fblink" href="https://www.facebook.com/" >Iscriviti con facebook</button>
+        </nav>
+        <input class="boxpazzo" type="checkbox" name="fbconditions" required>
+        <label id="accetto1" for="terminiecondizioni"> Accetto i <a class="greentext" href="https://www.spotify.com/it/legal/privacy-policy/">termini e condizioni d`uso di Spotify</a>.</label><br><br>
+    </form>
+        <div class="informativa">Per saperne di più su come Spotify raccoglie, utilizza, condivide e protegge i<br> tuoi dati personali, leggi l'
+            <a class="greentext" href="https://www.spotify.com/it/legal/privacy-policy/"> Informativa sulla privacy di Spotify</a>.</div>
+            <br>
+        <div id="lineoppure"><span id="textoppure">oppure</span></div>
+    <form>    
+        <h3>Iscriviti con il tuo indirizzo e-mail</h3>
+        <div><label for="mail" class="testiform">Qual è il tuo indirizzo e-mail?</label>
+        <input type="email" name="mail" id="mail" class="boxes" placeholder="  Inserisci la tua e-mail." required> </div>
+        <div><label for="confmail" class="testiform">Conferma la tua e-mail</label>
+            <input type="email" name="confmail" id="confmail" class="boxes" placeholder="  Inserisci nuovamente la tua e-mail." required></div>
+        <div><label for="password" class="testiform" >Crea una password</label>
+            <input type="password" name="password" id="password" class="boxes" pattern="[a-z]{1}[a-z_]{2,19}" placeholder="  Crea una password." required></div>
+        <div><label for="nomeprofilo" class="testiform">Come ti dobbiamo chiamare?</label><br>
+        <input type="text" name="nomeprofilo" id="nomeprofilo" class="boxes" placeholder="  Inserisci un nome del profilo." required>
+    <br>Questo appare sul tuo profilo.</div>
+        <div id="dateset">
+            <label id="completext" for="datacompleanno" class="testiform">Qual è la data del tuo compleanno?</label><br><br>
+            <label class="annomesegiornotext" id="annotext" for="anno">Anno</label>
+            <label class="annomesegiornotext" id="mesetext" for="mese">Mese</label>
+            <label class="annomesegiornotext" id="giornotext" for="giorno">Giorno</label><br>
+            <input type="text" inputmode="numeric" id="anno" name="anno" maxlength="4" pattern="[0-9]{4}" placeholder="   AAAA" required>
+            <select name="mese" id="mese" required>
+                <option value="">Mese</option>
+                <option value="01">Gennaio</option>
+                <option value="02">Febbraio</option>
+                <option value="03">Marzo</option>
+                <option value="04">Aprile</option>
+                <option value="05">Maggio</option>
+                <option value="06">Giugno</option>
+                <option value="07">Luglio</option>
+                <option value="08">Agosto</option>
+                <option value="09">Settembre</option>
+                <option value="10">Ottobre</option>
+                <option value="11">Novembre</option>
+                <option value="12">Dicembre</option>
+            </select>
+            
+            <input type="text"  id="giorno" name="giorno" maxlength="2" placeholder="   GG" pattern="[0-9]{1,2}" required>
+        </div>
+        <div><label id="sessotext" class="testiform" for="sesso">Di che sesso sei?</label>
+        <input type="radio"  id="maschio" name="sesso" value="Maschio" required>
+        <label for="maschio">Maschio</label>
+        <input type="radio"  id="femmina" name="sesso" value="Femmina" >
+        <label for="femmina">Femmina</label>
+        <input type="radio"  id="nonbinario" name="sesso" value="Non binario" >
+        <label for="non binario">Non binario</label>
+        </div>
+        <div id="offerteenovita">
+            <input class="boxpazzo" type="checkbox" id="novitaeofferte" name="novitaeofferte">
+            <label for="novitaeofferte">Voglio ricevere novità e offerte su Spotify</label>
+        </div>
+        <div id="convidivibla">
+            <input class="boxpazzo" type="checkbox" id="condivididettagli" name="condivididettagli">
+            <label for="condivididettagli" id="labelcondividi">Condividi i dettagli della mia registrazione con i fornitori di 
+                  contenuti Spotify per scopi di marketing. Nota: i tuoi dati potrebbero<br>
+                  essere trasferiti in un paese al di fuori dello SEE (Spazio economico
+                  europeo) secondo quanto descritto nella nostra informativa sulla
+                  privacy.</label>
+        </div>
+        <div id="accetto">
+            <input class="boxpazzo" type="checkbox" id="terminiecondizioni" name="terminiecondizioni" required>
+            <label for="terminiecondizioni">Accetto i <a href="https://www.spotify.com/it/legal/end-user-agreement/" class="greentext">termini e condizioni d`uso di Spotify</a>.</label>
+        </div>
+        <div id="boxrobot">
+            <input type="checkbox" class="nonsonounrobotcheck">
+            <label id="robotxt" class="nonsonounrobotcheck" >Non sono un robot</label> 
+            <img id="imgcaptcha" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1024px-RecaptchaLogo.svg.png">
+            <div id="captchaprivacy"><a class="privacytext" href="https://policies.google.com/privacy?hl=it">Privacy</a>-<a class="privacytext" href="https://policies.google.com/terms?hl=it">Termini</a></div>
+
+            </div>
+        <div id="persaperne" class="informativa">
+            Per saperne di più su come Spotify raccoglie, utilizza, condivide e protegge i <span id="tuoidatispan">tuoi dati personali, leggi l'
+                <a href="https://www.spotify.com/it/legal/privacy-policy/" class="greentext">Informativa sulla privacy di Spotify</a>.</span>
+        </div>
+        <button type="submit" id="iscriviti">Iscriviti</button>
+    </form>
+    <div>
+        <h4>Hai un account?<a href="https://accounts.spotify.com/it/login?continue=https:%2F%2Fwww.spotify.com%2Faccount%2Foverview%2F&_ga=2.204684115.2115562029.1626357076-2114018614.1626357076" class="greentext">Accedi</a>.</h4>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,342 @@
+html{
+    display: block ;
+    margin: auto;
+}
+body {
+  margin: 40px auto;
+  max-width: 450px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: left;
+    text-justify: inter-word;
+    position:;
+    display: ; 
+    letter-spacing: 0.25px;
+}
+h1{
+    margin: 40px auto;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0,25px;
+}
+.greentext {
+    color:#00bb2d;
+    text-decoration: underline;
+      }
+  
+.greentext:hover {
+
+    color: #17de71
+     ;
+}      
+
+#logolink{
+    display: block;
+    margin: auto;
+    width: 131px;
+    height: 38px;
+}
+#logolinklink{
+    
+}
+
+#fbbutton {   
+    font-size: 18px;
+    letter-spacing: 0,25px;
+    font-weight: bold;
+    margin: 36px;
+    text-align: center;
+}  
+
+#fblink{
+    border: 2px solid white;
+    width: 220px;
+    height: 55px;
+    text-decoration: none;
+    position: ;
+    display: inline-block;
+    border-radius: 45px;
+    padding: 15px;
+    background-color: #1877F2 ;
+    color: white;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 0ms;
+    transition: all .2s ease-in-out;
+}
+
+#fblink:hover{
+    background-color: #2784fb ;
+    transform: scale(1.1);
+    position: ;
+    font-size: ;
+}
+
+#fblink:active {
+    background-color:;
+    border: 5px solid gray;
+}
+
+
+#accetto1{ 
+font-size: 14px;
+}
+
+#lineoppure {
+    position: relative;
+    margin: 100px auto;
+    display: block;
+    width: 80%;
+    line-height: 0.5px;
+    margin: auto;
+    border-top:  1px solid lightgray;
+    position:relative;
+    text-align: center;
+}
+
+#textoppure{
+    margin: 80px;
+    border: 0,5px;
+    background-color: white;
+    margin:;
+    width: 10px;
+    letter-spacing: 2px;
+}
+
+h3{
+    margin: 30px;
+    text-align: center;
+}
+
+.boxes { 
+
+    border: 1.5px solid lightslategray;
+    border-color: lightslategray;
+    box-sizing: border-box;
+    cursor: text;
+    display: block;
+    margin: 0 auto;
+    max-width: 450px;
+    border-radius: 5px;
+    margin: 12px 0;
+    width: 402px;
+    height: 54px;
+}
+
+.boxes:hover {
+    border: 1.5px solid black;
+}
+
+.testiform{
+    margin: 20px auto;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;   
+     font-weight: bold
+}
+
+.informativa{
+    font-size: 12px;  
+}  
+
+#dateset {
+    margin: 20px auto;
+    display: block;
+}
+
+.annomesegiornotext{
+    
+}
+
+#annotext {
+margin-left: 12px;
+text-align: ;
+}
+
+#anno {
+    margin: 10px;
+    border: 1.5px solid lightslategray;
+    border-radius: 5px;
+    width: 105px;
+    height: 52px;
+}
+
+#mesetext {
+    margin-left: 97px;
+}
+
+#mese {
+    margin: 10px;
+    border: 1.5px solid lightslategray;
+    border-radius: 5px;
+    width: 180.9px;
+    height: 59px;
+}
+
+#giornotext {
+    margin-left: 160px;
+}
+
+#giorno {
+    margin: 10px;
+    border: 1.5px solid lightslategray;
+    border-radius: 5px;
+    width: 80px;
+    height: 52px;
+}
+
+#sessotext{
+    margin-bottom:  20px;
+    display: block;
+}
+
+#maschio {
+    display: inline;
+    padding: 50px;
+    margin-left: 0px;
+    margin-bottom: 14px;
+}
+
+#femmina {
+    display: inline;
+    padding: 50px;
+    margin-left: 20px;
+}
+
+#nonbinario{
+    display: inline;
+    padding: 50px;
+    margin-left: 20px;
+}
+
+#offerteenovita{
+    font-size: 14px;
+    margin: 20px auto;
+}
+
+#condividibla{
+    max-width: fit-content;
+    display: block;
+    margin: 20px auto;
+    font-size:;
+}
+#labelcondividi {
+    font-size: 14px;
+    letter-spacing: 0,25px;
+}
+
+#accetto {
+    font-size: 14px;
+    display: block;
+    margin: 20px auto;
+}
+
+#boxrobot { 
+    border-radius: 3px;
+    box-shadow: 1px 1px #f9f5f7;
+    border: 1px solid;
+    border-color: #deddde;
+    background-color: #fbfafb;
+    width: 280px;
+    height: 42px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.nonsonounrobotcheck {
+    position: relative;
+    display:  ;
+   bottom: 30px;
+}
+
+#nonsonounrobot:hover{
+
+}
+
+#robotxt {
+    display: ;
+    margin-bottom:;
+font-size: 14px;
+}
+
+#imgcaptcha {
+        position: relative;
+    height: 50px;
+    margin-left: 75px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+#captchaprivacy {
+    text-decoration: none;
+    letter-spacing: 0.8px;
+    font-size: 6px;
+    display: inline-block;
+    position: relative;
+    left: 222px;
+    right: 50px;
+    top: ;
+    bottom: 26px;
+}
+
+.privacytext {
+    text-decoration: none;
+}
+
+.privacytext:hover {
+    text-decoration: underline;
+}
+
+#persaperne{
+    line-height: 16px;
+    padding: 10px;
+    max-width: 100%;
+    letter-spacing: 0,25px;
+    text-align: left;
+}
+
+#tuoidatispan{
+    display: block;
+    position: ;
+    margin-left: ;
+    text-align: center;
+}
+
+#iscriviti{
+    line-height: 5px;
+    position: relative;
+    letter-spacing: 0.5px;
+    width: 150px;
+    height: auto;
+    text-align:;
+    margin: 15px auto;
+    display: block;
+    border-radius: 45px;
+    padding: 25px;
+    background-color: #1ed760;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    transition-property: all;
+    transition-duration: 0ms;
+    transition: all .2s ease-in-out;
+}
+
+#iscriviti:hover{
+    background-color: #17de71;
+    position: atic;
+    font-size: ;
+    transform: scale(1.1);
+}
+h4{
+    font-weight: unset;
+    margin-bottom: 150px;
+    text-align: center;
+}
+.boxpazzo:hover {
+    color: aqua;
+    border-color: aqua;
+    text-decoration-color: aqua;
+
+}

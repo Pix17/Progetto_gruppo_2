@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/* CUSTOMIZZAZIONE DEI BOX */
+nav {
+  background-color: #000000;
+  max-height: 90px;
+}
+
+.box2 > ul > a > li {
+  display: inline-block;
+  padding: 20px 15px;
+  font-weight: 700;
+}
+
+ul > a:hover {
+  color: #1ed760;
+}
+
+ul {
+  text-align: right;
+  margin-right: 0;
+}
+
+.change-color {
+  color: #d9dadc;
+}
+
+main {
+  background: url("../img/search-mobile.webp") no-repeat center;
+  background-size: cover;
+}
+
+.box3 h1 {
+  font-size: 64px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 5%;
+}
+
+.box4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2.5rem;
+  margin-left: 16%;
+  height: 3.5rem;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 1px #868686;
+}
+
+.box4:hover {
+  box-shadow: inset 0 0 0 1px #000000;
+}
+
+input {
+  border: none;
+}
+
+:focus {
+  outline: none;
+}
+
+.icon {
+  position: relative;
+  left: -10px;
+  top: 7px;
+  color: #575757;
+}

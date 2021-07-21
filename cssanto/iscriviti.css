@@ -13,6 +13,17 @@ body {
     letter-spacing: 0.25px;
 }
 
+/* logo e link alla home*/
+#logolink{
+    display: block;
+    margin: auto;
+    width: 131px;
+    height: 38px;
+}
+
+
+/* Iscriviti gratuitamente per
+iniziare ad ascoltare. */
 h1{
     margin: 40px auto;
     text-align: center;
@@ -21,27 +32,17 @@ h1{
     letter-spacing: 0.25px;
 }
 
+/* testi verdi con link e relativo hover */
 .greentext {
     color:#00bb2d;
     text-decoration: underline;
       }
-  
 .greentext:hover {
-
     color: #17de71
      ;
 }      
 
-#logolink{
-    display: block;
-    margin: auto;
-    width: 131px;
-    height: 38px;
-}
-#logolinklink{
-    
-}
-
+/* Iscriviti con facebook e relativo button con link e relativo hover e relativo active*/
 #fbbutton {   
     font-size: 18px;
     letter-spacing: 0,25px;
@@ -49,7 +50,6 @@ h1{
     margin: 30px;
     text-align: center;
 }  
-
 #fblink{
     border: 2px solid white;
     width: 220px;
@@ -65,24 +65,29 @@ h1{
     transition-duration: 0ms;
     transition: all .2s ease-in-out;
 }
-
 #fblink:hover{
     background-color: #2784fb ;
     transform: scale(1.1);
     position: ;
     font-size: ;
 }
-
 #fblink:active {
     background-color:;
     border: 5px solid gray;
 }
 
 
+/*Accetto termini etc */
 #accetto1{ 
 font-size: 14px;
 }
 
+/* informativa */
+.informativa{
+    font-size: 12px;  
+}  
+
+/*Linea e testo oppure */
 #lineoppure {
     position: relative;
     display: block;
@@ -93,7 +98,6 @@ font-size: 14px;
     position:relative;
     text-align: center;
 }
-
 #textoppure{
     color: lightslategray;
     margin: 80px;
@@ -104,13 +108,14 @@ font-size: 14px;
     letter-spacing: 2px;
 }
 
+/*Iscriviti con il tuo indirizzo e-mail */
 h3{
     margin: 30px;
     text-align: center;
 }
 
+/*Tutte le boxes e relativi testi */
 .boxes { 
-
     border: 1.5px solid lightslategray;
     border-color: lightslategray;
     box-sizing: border-box;
@@ -123,36 +128,25 @@ h3{
     width: 402px;
     height: 54px;
 }
-
 .boxes:hover {
     border: 1.5px solid black;
 }
-
 .testiform{
     margin: 20px auto;
     font-size: 14px;
     font-family: Helvetica, Arial, sans-serif;   
-    font-weight: bold
+    font-weight: bold;
 }
 
-.informativa{
-    font-size: 12px;  
-}  
-
+/* compleanno anno mese giorno e relative funzioni e boxes*/
 #dateset {
     margin: 20px auto;
     display: block;
 }
-
-.annomesegiornotext{
-    
-}
-
 #annotext {
 margin-left: 12px;
 text-align: ;
 }
-
 #anno {
     margin: 10px;
     border: 1.5px solid lightslategray;
@@ -160,11 +154,9 @@ text-align: ;
     width: 105px;
     height: 52px;
 }
-
 #mesetext {
     margin-left: 97px;
 }
-
 #mese {
     margin: 10px;
     border: 1.5px solid lightslategray;
@@ -172,11 +164,9 @@ text-align: ;
     width: 180.9px;
     height: 59px;
 }
-
 #giornotext {
     margin-left: 160px;
 }
-
 #giorno {
     margin: 10px;
     border: 1.5px solid lightslategray;
@@ -185,35 +175,33 @@ text-align: ;
     height: 52px;
 }
 
+/* sesso e select */
 #sessotext{
     margin-bottom:  20px;
     display: block;
 }
-
 #maschio {
     display: inline;
     padding: 50px;
     margin-left: 0px;
     margin-bottom: 14px;
 }
-
 #femmina {
     display: inline;
     padding: 50px;
     margin-left: 20px;
 }
-
 #nonbinario{
     display: inline;
     padding: 50px;
     margin-left: 20px;
 }
 
+/* offerte e condividi e accetto*/
 #offerteenovita{
     font-size: 14px;
     margin: 20px auto;
 }
-
 #condividibla{
     max-width: fit-content;
     display: block;
@@ -224,13 +212,13 @@ text-align: ;
     font-size: 14px;
     letter-spacing: 0,25px;
 }
-
 #accetto {
     font-size: 14px;
     display: block;
     margin: 20px auto;
 }
 
+/* captcha and co*/
 #boxrobot { 
     border-radius: 3px;
     box-shadow: 1px 1px #f9f5f7;
@@ -242,23 +230,19 @@ text-align: ;
     padding: 10px;
     margin-bottom: 20px;
 }
-
 .nonsonounrobotcheck {
     position: relative;
     display:  ;
    bottom: 30px;
 }
-
 #nonsonounrobot:hover{
 
 }
-
 #robotxt {
     display: ;
     margin-bottom:;
 font-size: 14px;
 }
-
 #imgcaptcha {
         position: relative;
     height: 50px;
@@ -266,7 +250,6 @@ font-size: 14px;
     margin-bottom: 15px;
     margin-top: -10px;
 }
-
 #captchaprivacy {
     text-decoration: none;
     letter-spacing: 0.8px;
@@ -278,15 +261,17 @@ font-size: 14px;
     top: ;
     bottom: 26px;
 }
+#checkboxrobot{
+    padding: 10px;
+}
 
+/*per saperne di piu */
 .privacytext {
     text-decoration: none;
 }
-
 .privacytext:hover {
     text-decoration: underline;
 }
-
 #persaperne{
     line-height: 16px;
     padding: 10px;
@@ -294,7 +279,6 @@ font-size: 14px;
     letter-spacing: 0,25px;
     text-align: left;
 }
-
 #tuoidatispan{
     display: block;
     position: ;
@@ -302,6 +286,7 @@ font-size: 14px;
     text-align: center;
 }
 
+/* Iscrivi button and hover*/
 #iscriviti{
     line-height: 5px;
     position: relative;
@@ -322,19 +307,20 @@ font-size: 14px;
     transition-duration: 0ms;
     transition: all .2s ease-in-out;
 }
-
 #iscriviti:hover{
     background-color: #17de71;
     position: atic;
     font-size: ;
     transform: scale(1.1);
 }
+/*Hai un account*/
 h4{
     font-weight: unset;
     margin-bottom: 150px;
     text-align: center;
 }
 
+/*trying area*/
 .boxpazzo:hover {
     color: aqua;
     border-color: aqua;
@@ -342,6 +328,7 @@ h4{
 
 }
 
+/* captcha cosino in basso a dx*/
 #captchamove {  
     width: 256px;
     height: 60px;
@@ -354,7 +341,5 @@ h4{
     border-radius: 2px;
     overflow: hidden;
 }
-
 #captchamove:hover {
-
 }

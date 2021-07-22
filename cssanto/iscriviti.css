@@ -63,11 +63,11 @@ h1{
     font-weight: bold;
     transition-property: all;
     transition-duration: 0ms;
-    transition: all .2s ease-in-out;
+    transition: all  ease-in-out;
 }
 #fblink:hover{
     background-color: #2784fb ;
-    transform: scale(1.1);
+    transform: scale(1.05);
     position: ;
     font-size: ;
 }
@@ -263,6 +263,7 @@ font-size: 14px;
 }
 #checkboxrobot{
     padding: 10px;
+    
 }
 
 /*per saperne di piu */
@@ -305,7 +306,7 @@ font-size: 14px;
     border: none;
     transition-property: all;
     transition-duration: 0ms;
-    transition: all .2s ease-in-out;
+    transition: all ease-in-out;
 }
 #iscriviti:hover{
     background-color: #17de71;
@@ -320,14 +321,6 @@ h4{
     text-align: center;
 }
 
-/*trying area*/
-.boxpazzo:hover {
-    color: aqua;
-    border-color: aqua;
-    text-decoration-color: aqua;
-
-}
-
 /* captcha cosino in basso a dx*/
 #captchamove {  
     width: 256px;
@@ -340,6 +333,26 @@ h4{
     box-shadow: gray 0px 0px 5px;
     border-radius: 2px;
     overflow: hidden;
+    transition-property: all;
+    transition-duration: 0.3s;
+   
 }
 #captchamove:hover {
+    width: 400px;
+    height: 60px;
 }
+
+/*trying area*/
+.boxpazzo:hover {
+    border-color: pink ;
+  }
+  
+  #terminiecondizioni:hover {
+      background-color: red;
+  }
+  #textcaptchamove{
+      display: inline;
+      position: relative;
+      left: 20px;
+  }
+  

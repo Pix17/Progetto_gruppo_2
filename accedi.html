@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="accedi.css">
 </head>
     <body>
-        <img src="Spotify-Black-Logo.wine.svg" alt="logo spotify" class="spotify_logo">
+          <img src="Spotify-Black-Logo.wine.svg" alt="logo spotify" class="spotify_logo">
+          <div id="divider"></div>
         <div id="line">
-        <h1>Per continuare, accedi a Spotify.</h1>
-        <button onclick="location.href='https://www.facebook.com/v7.0/dialog/oauth?client_id=174829003346&response_type=code&scope=email%2Cuser_birthday%2Cpublic_profile%2Cuser_friends&redirect_uri=https%3A%2F%2Fwww.spotify.com%2Fsignup%2Ffacebook%2F'" id="fb" >CONTINUA CON FACEBOOK</button>
-        <button onclick="location.href='https://appleid.apple.com/auth/authorize?client_id=com.spotify.accounts&response_type=code&response_mode=form_post&scope=name%20email&state=AQBdiGL98QRGxyZ85NjSFQHkOozirrLAfWa4y%2FgalD3RhnkcYeF6d6WDikc%2FLCOToIpJcisixN17ttGcaIlfhPUoZ2FRgGeYYwhtDHui%2FmWJYlK66S5jA0vQUurzyxEGvSVbchkYG5Mn7dopRkxin36ndLiU3MvkW1Q5Bz6MoKuS71yI0rICfKRVcMtZsUVegCxFUWAjj%2FwSYDqlXAYXq7NmSik%3D&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fapple%2Fredirect'" id="apple" >CONTINUA CON APPLE</button>
-        <button onclick="location.href='https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&access_type=offline&client_id=1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com&state=AQDOP38JQp4GYlXerHApoGzzzrrBnP3K%2FmG7EyOjAlvweaZWLNvc8%2Fk4cntxZKaomAxTTqOKwEXfMJqMjjoBT6gRMaIZNeVTkSa26mrH4ajXQDc15Le66zOScrT2fypakq2lCDe1VVhXT9u2E7PDBfsYvT4GZGi%2FRouv6jwysSYbSriKdnA8ASyVX%2B9LQC%2BSHfPyGwLy1jTyqjXlg3EFL0nkUA%3D%3D&scope=profile%20email%20openid&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fgoogle%2Fredirect&flowName=GeneralOAuthFlow'" id="google" >CONTINUA CON GOOGLE</button>
+          <h1>Per continuare, accedi a Spotify.</h1>
+          <button onclick="location.href='https://www.facebook.com/v7.0/dialog/oauth?client_id=174829003346&response_type=code&scope=email%2Cuser_birthday%2Cpublic_profile%2Cuser_friends&redirect_uri=https%3A%2F%2Fwww.spotify.com%2Fsignup%2Ffacebook%2F'" id="fb" >CONTINUA CON FACEBOOK</button>
+          <button onclick="location.href='https://appleid.apple.com/auth/authorize?client_id=com.spotify.accounts&response_type=code&response_mode=form_post&scope=name%20email&state=AQBdiGL98QRGxyZ85NjSFQHkOozirrLAfWa4y%2FgalD3RhnkcYeF6d6WDikc%2FLCOToIpJcisixN17ttGcaIlfhPUoZ2FRgGeYYwhtDHui%2FmWJYlK66S5jA0vQUurzyxEGvSVbchkYG5Mn7dopRkxin36ndLiU3MvkW1Q5Bz6MoKuS71yI0rICfKRVcMtZsUVegCxFUWAjj%2FwSYDqlXAYXq7NmSik%3D&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fapple%2Fredirect'" id="apple" >CONTINUA CON APPLE</button>
+          <button onclick="location.href='https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&access_type=offline&client_id=1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com&state=AQDOP38JQp4GYlXerHApoGzzzrrBnP3K%2FmG7EyOjAlvweaZWLNvc8%2Fk4cntxZKaomAxTTqOKwEXfMJqMjjoBT6gRMaIZNeVTkSa26mrH4ajXQDc15Le66zOScrT2fypakq2lCDe1VVhXT9u2E7PDBfsYvT4GZGi%2FRouv6jwysSYbSriKdnA8ASyVX%2B9LQC%2BSHfPyGwLy1jTyqjXlg3EFL0nkUA%3D%3D&scope=profile%20email%20openid&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fgoogle%2Fredirect&flowName=GeneralOAuthFlow'" id="google" >CONTINUA CON GOOGLE</button>
         </div>
-        <div id="divider">
+        <div id="divider2">
             <strong id="lettera">o</strong>
         </div>
             <form>
                 <div>
-                <label class="font" for="email/username">Indirizzo e-mail o username</label>
-                <input placeholder="  Indirizzo e-mail o username" class="box" type="email" name="email/username" id="email/username" required>
+                  <label class="font" for="email/username">Indirizzo e-mail o username</label>
+                  <input placeholder="  Indirizzo e-mail o username" class="box" type="email" name="email/username" id="email/username" required>
                 </div>
                 <div class="content">
                     <label class="font" for="passw">Password</label>
@@ -43,7 +44,7 @@
                 <p class="account">Non hai un account?</p>
             </div>
             <div class="account">
-             <button><a href="#">Iscriviti a Spotify</a></button>
+              <button><a href="#">Iscriviti a Spotify</a></button>
             </div>
     </body>
 </html>

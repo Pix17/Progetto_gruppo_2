@@ -88,3 +88,42 @@ h4 {
   line-height: 1.6em;
   word-spacing: 0.1em;
 }
+
+.box5 a:hover {
+  text-decoration: underline;
+}
+
+.sec-1 {
+  background-color: #eeeeee;
+}
+
+.box6 {
+  margin: 3rem 0;
+}
+
+.box6 h2 {
+  text-align: left;
+  font-weight: 700;
+  word-spacing: 0.1em;
+  margin-left: 2.5rem;
+}
+
+.box6 a {
+  color: #117a37;
+  font-weight: 700;
+}
+
+.box6 ul {
+  margin: 3rem 2.5rem auto;
+  text-align: left;
+}
+
+.box6 ul li {
+  word-spacing: 0.1em;
+  line-height: 1.6em;
+}
+
+.box6 ul li:hover {
+  color: #117a37;
+  text-decoration: underline;
+}

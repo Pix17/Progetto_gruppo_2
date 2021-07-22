@@ -1,0 +1,123 @@
+.spotify_logo {
+    display:inline-block;
+    width: 200px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#solid {
+    margin-top: 10px;
+}
+
+html{
+    display: block ;
+    margin: auto;
+}
+body {
+  margin: 40px auto;
+  max-width: 450px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: left;
+    text-justify: inter-word; 
+    letter-spacing: 0.25px;
+}
+
+h1 {
+    letter-spacing: 0.25px;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#facebook {
+    background-color: #3a61b3;
+    width: 450px;
+    height: 48px;
+}
+
+#fb {
+    width: 450px;
+    height: 48px;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    border-radius: 45px;
+    padding: 16px 14px 18px;
+    border: none ;
+    background-color: #3a61b3 ;
+    box-shadow: 1px 1px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#fb:hover {
+    background-color: #3a71b6;
+}
+
+#apple {
+    width: 450px;
+    height: 48px;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    border-radius: 45px;
+    padding: 16px 14px 18px;
+    border: none ;
+    background-color: #000 ;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#apple:hover {
+    background-color: #333333;
+}
+
+#google {
+    width: 450px;
+    height: 48px;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    border-radius: 45px;
+    padding: 16px 14px 18px;
+    border: 2px solid #616467;
+    background-color: #fff ;
+    color: #616467;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#google:hover {
+    background-color: #616467;
+    color: aliceblue;
+}
+
+#divider {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    line-height: 0.5px;
+    border-top:  1px solid lightgray;
+    position:relative;
+    text-align: center;
+}
+
+#lettera {
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+
+.box {
+    display: block;
+    border: 1px solid lightgray ;
+    width: 450px;
+    height: 40px;
+    margin: 10px auto;
+}

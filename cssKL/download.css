@@ -1,0 +1,118 @@
+body {
+    margin: auto;
+}
+.navbar{
+    margin-left: ;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 0.01px;
+    background-color: black;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 1.3em;
+    padding-left: ;
+}
+
+#ultop {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.6em;
+    word-spacing: 2.5em;
+    margin-right: 460px;
+    margin-bottom: 20px;
+}
+
+.iscrivitiaccedi {
+    color: #d9d9d9;
+    
+}
+
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+li{
+    display: inline;
+}
+
+a:hover{
+color: #19e68c
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#laptop{
+    margin-top: 100px;
+    width: 136px;
+    height: 80px;
+
+}
+
+.scarica{
+    color: black;
+    border-color: white;
+    border-radius: 2em;
+}
+
+.dl-screen{
+    background-color: #19e68c;
+    text-align: center;
+}
+
+.mobile{
+    text-align: center;
+}
+
+.devices{
+    background-color: #292929;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    word-spacing: 10px;
+    padding-top: 5em;
+}
+
+footer{
+    background-color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+    color: white;
+    text-align: center;
+}
+
+.spotify_logo{
+    margin-bottom: 0.8em;
+    margin-left: 29.2em;
+    display: flex;
+    align-items: flex-start;
+    width: 90px;
+    height: 27px;
+}
+
+table{
+    justify-content: center;
+    text-align: center;
+}
+
+thead{
+    color: #919496;
+}
+
+.social{
+    width: 24px;
+    height: 24px;
+    display: block;
+    border-radius: 12px;
+    border-color: grey;
+}
+
+.social:hover{
+    color: #19e68c;
+    background-color: #19e68c;
+    border-color: #19e68c;
+}

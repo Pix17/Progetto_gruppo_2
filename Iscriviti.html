@@ -26,7 +26,7 @@
         </div>
     <form>
         <nav id="fbbutton">
-       <button onclick="window.location.href='https://www.facebook.com/v7.0/dialog/oauth?client_id=174829003346&response_type=code&scope=email%2Cuser_birthday%2Cpublic_profile%2Cuser_friends&redirect_uri=https%3A%2F%2Fwww.spotify.com%2Fsignup%2Ffacebook%2F'" id="fblink" >Iscriviti con facebook</button>
+       <button type="submit" onclick="location.href='https://www.facebook.com/v7.0/dialog/oauth?client_id=174829003346&response_type=code&scope=email%2Cuser_birthday%2Cpublic_profile%2Cuser_friends&redirect_uri=https%3A%2F%2Fwww.spotify.com%2Fsignup%2Ffacebook%2F'" id="fblink" >Iscriviti con facebook</button>
         </nav>
         <input class="boxpazzo" type="checkbox" name="fbconditions" required>
         <label id="accetto1" for="terminiecondizioni"> Accetto i <a class="greentext" href="https://www.spotify.com/it/legal/privacy-policy/">termini e condizioni d`uso di Spotify</a>.</label><br><br>
@@ -92,10 +92,10 @@
         </div>
         <div id="accetto">
             <input class="boxpazzo" type="checkbox" id="terminiecondizioni" name="terminiecondizioni" required>
-            <label for="terminiecondizioni">Accetto i <a href="https://www.spotify.com/it/legal/end-user-agreement/" class="greentext">termini e condizioni d`uso di Spotify</a>.</label>
+            <label for="terminiecondizioni" id="accetto1">Accetto i <a href="https://www.spotify.com/it/legal/end-user-agreement/" class="greentext">termini e condizioni d`uso di Spotify</a>.</label>
         </div>
         <div id="boxrobot">
-            <input type="checkbox" class="nonsonounrobotcheck">
+            <input type="checkbox" id="checkboxrobot" class="nonsonounrobotcheck">
             <label id="robotxt" class="nonsonounrobotcheck" >Non sono un robot</label> 
             <img id="imgcaptcha" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1024px-RecaptchaLogo.svg.png">
             <div id="captchaprivacy"><a class="privacytext" href="https://policies.google.com/privacy?hl=it">Privacy</a>-<a class="privacytext" href="https://policies.google.com/terms?hl=it">Termini</a></div>
@@ -110,8 +110,10 @@
     <div>
         <h4>Hai un account?<a href="https://accounts.spotify.com/it/login?continue=https:%2F%2Fwww.spotify.com%2Faccount%2Foverview%2F&_ga=2.204684115.2115562029.1626357076-2114018614.1626357076" class="greentext">Accedi</a>.</h4>
     </div>
-    <div id="captchamove"  >
+    <div id="captchamove">
         <img height="100%" width="65px" src="img/recaptcha-icon-01.png">
+        <p id="textcaptchamove">protetto da reCAPTCHA
+            Privacy - Termini</p>
     </div>
 
 </body>

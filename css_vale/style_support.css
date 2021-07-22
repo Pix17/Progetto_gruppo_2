@@ -127,3 +127,36 @@ h4 {
   color: #117a37;
   text-decoration: underline;
 }
+
+.box7 {
+  margin: 5rem 0;
+}
+.box7 h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.box7 p {
+  margin: 3rem auto;
+  font-weight: bold;
+  word-spacing: 0.1em;
+}
+
+.box7 button {
+  color: #000000;
+  font-weight: bold;
+  background-color: #21e065;
+  padding: 15px 27px;
+  border-radius: 30px;
+  border-style: none;
+  cursor: pointer;
+}
+
+button:hover {
+  padding: 18px 29px;
+  transition-duration: 0.5s;
+}
+
+button:active {
+  background-color: #169c46;
+}

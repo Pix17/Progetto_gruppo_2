@@ -1,41 +1,76 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Giuseppe Capicotto">
     <meta name="description" content="Spotify, un posto unico dove trovare tutta la musica che cerchi!">
+    
     <meta property="og:type" content="website">
     <meta property="og:title" content="Spotify">
     <meta property="og:image" content="img/spotifylogo.png">
     <meta property="og:description" content="Spotify, un posto unico dove trovare tutta la musica che cerchi!">
-    <meta property="og:url" content="index.html">       <!-- Ovviamente non va bene perchè non abbiamo un dominio -->
+    <meta property="og:url" content="index.html"> <!-- Ovviamente non va bene perchè non abbiamo un dominio -->
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/spotify.png" type="image/x-icon">
     <title>Listening is Everything - Spotify</title>
 </head>
+
 <body>
     <!--Header con i link alle varie sub-pages-->
     <header>
         <nav>
-                <a href=""><img src="img/spotifylogo.png" alt="Logo Spotify con trasparenze" class="logo margin1 marginleft"></a>
-            <div class="menu">
-                <a href="" class="marginright">Premium</a>
-                <a href="assistenza.html" class="marginright">Assistenza</a>
-                <a href="download.html" class="marginright">Scarica</a>
-                <span class="marginright white">|</span>
-                <a href="iscriviti.html" class="marginright">Iscriviti</a>
-                <a href="" class="marginright">Accedi</a>
-            </div>
+            <a href="index.html">
+             <img src="img/spotifylogo.png" alt="Logo Spotify con trasparenze" class="logo">
+            </a>
+           
+            <ul >
+                <li>
+                    <a href="premium.html">
+                        Premium
+                    </a>
+                </li>
+                <li>
+                    <a href="assistenza.html">
+                        Assistenza
+                    </a>
+                </li>
+                <li>
+                    <a href="download.html">
+                        Scarica
+                    </a>
+                </li>
+                <li>
+                    <span>
+                        |
+                    </span>
+                </li>
+                <li>
+                    <a href="Iscriviti.html">
+                        Iscriviti
+                    </a>
+                </li>
+                <li>
+                    <a href="accedi.html">
+                        Accedi
+                    </a>
+                </li>
+            </ul>
         </nav>
     </header>
+
     <!--Main con la parte centrare della pagina ed un bottone-->
     <main>
-        <h1 id="sup">
-            Listening is Everything
+        <h1>
+            Listening is 
         </h1>
-        <p id="sub">
+        <h1 class="spostato">
+            Everything
+        </h1>
+        <p>
             Milioni di brani e podcast. Senza alcuna carta di credito
         </p>
         <div class="button">
@@ -45,103 +80,140 @@
     </main>
     <!--Footer con link alle informazioni del servizio e link ai social-->
     <footer>
-        <nav>
+        <nav class="navfooter">
+            <a href="index.html">
+                <img src="img/spotifylogo.png" alt="Logo spotify in bianco" class="logo">
+            </a>
+        
+            <dl>
+                <dt>AZIENDA</dt>
+                <dt>
+                    <a href="">
+                        Chi shiamo
+                    </a>
+                </dt>
+                <dt>
+                    <a href="">
+                        Opportunità di lavoro
+                    </a>
+                </dt>
+                <dt>
+                    <a href="">
+                        For the record
+                    </a>
+                </dt>
+            </dl>
+       
+            <dl>
+                <dt>COMMUNITY</dt>
+                <dt>
+                    <a href="">
+                        Per artista
+                    </a>
+                </dt>
+                <dt>
+                    <a href="">
+                        Sviluppatori
+                    </a>
+                </dt>
+                <dt>
+                    <a href="">
+                        Publicità
+                    </a>
+                </dt>
+                <dt>
+                    <a href="">
+                        Investitori
+                    </a>
+                </dt>
 
-            <div class="footerdiv left">
-                <img src="img/spotifylogo.png" alt="Logo spotify in bianco" class="logo margin1">
-            </div>
+                <dt>
+                    <a href="">
+                        Venditori
+                    </a>
+                </dt>
+            </dl>
+        
+            <dl>
+                <dt>LINK UTILI</dt>
+                <dt>
+                    <a href="">
+                        Assistenza
+                    </a>
+                </dt>
 
-            <div class="footerdiv">
-                <dl>
-                    <dt>AZIENDA</dt>
-                    <dt>
-                        <a href="">
-                            Chi shiamo
-                        </a>
-                    </dt>
-                    <dt>
-                        <a href="">
-                            Opportunità di lavoro
-                        </a>
-                    </dt>
-                    <dt>
-                        <a href="">
-                            For the record
-                        </a>
-                    </dt>
-                </dl>
-            </div>
+                <dt>
+                    <a href="">
+                        Lettore web
+                    </a>
+                </dt>
 
-            <div class="footerdiv">
-                <dl>
-                    <dt>COMMUNITY</dt>
-                    <dt>
-                        <a href="">
-                            Per artista
-                        </a>
-                    </dt>
-                    <dt>
-                        <a href="">
-                            Sviluppatori
-                        </a>
-                    </dt>
-                    <dt>
-                        <a href="">
-                            Publicità
-                        </a>
-                    </dt>
-                    <dt>
-                        <a href="">
-                            Investitori
-                        </a>
-                    </dt>
-                    <dt>
-                        <a href="">
-                            Venditori
-                        </a>
-                    </dt>
-                </dl>
-            </div>
+                <dt>
+                    <a href="">
+                        App per cellulare gratuita
+                    </a>
+                </dt>
 
-            <div class="footerdiv">
-                <dl>
-                    <dt>LINK UTILI</dt>
-                    <dt>
-                        <a href="">
-                            Assistenza
-                        </a>
-                    </dt>
-                    <dt>
-                        <a href="">
-                            Lettore web
-                        </a>
-                    </dt>
-                    <dt>
-                        <a href="">
-                            App per cellulare gratuita
-                        </a>
-                    </dt>
-                    <dt>
-                       <a href="">
-                           Diritti del consumatore
-                       </a> 
-                    </dt>
-                </dl>
-            </div>
-            <div class="footerdiv right">
+                <dt>
+                    <a href="">
+                        Diritti del consumatore
+                    </a>
+                </dt>
+            </dl>
+            
+            <div>
                 <a href="">
-                    <img src="img/instagramlogo.png" alt="Logo Instagram" class="social">
-                </a>               
+                    <img src="img/instagramSVG.svg" alt="Logo Instagram" class="social">
+                </a>
                 <a href="">
-                    <img src="img/twitterlogo.png" alt="Logo Twitter" class="social">
-                </a>               
+                    <img src="img/twitterSVG.svg" alt="Logo Twitter" class="social">
+                </a>
                 <a href="">
-                    <img src="img/facebooklogo.png" alt="Logo facebook" class="social">
+                    <img src="img/facebookSVG.svg" alt="Logo facebook" class="social">
                 </a>
             </div>
-            
+        </nav>
+
+        <nav class=" mini copyright">
+            <a href="">
+                Italia
+            </a>
+            <span>
+                © 2021 Spotify AB
+            </span>
         </nav>
         
+        <nav class="mini">
+            <ul>
+                <li>
+                    <a href="http://">
+                        Informazioni legal
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        Centro sulla privacy
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        Informativa sulla privacy
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        Impostazioni cookie
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        Info annunci
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
     </footer>
 </body>
+
 </html>

@@ -1,9 +1,9 @@
 .spotify_logo {
-    display:inline-block;
-    width: 200px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+
+    display: inline-block;
+    max-width: 200px;
+    float: inline-start;
+    
 }
 
 #solid {
@@ -101,6 +101,11 @@ h1 {
 }
 
 #divider {
+    display: block;
+    border-top: 1px solid lightgray;
+}
+
+#divider2 {
     margin-bottom: 30px;
     margin-top: 30px;
     display: block;

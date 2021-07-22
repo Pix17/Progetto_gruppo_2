@@ -6,20 +6,21 @@ body {
     align-items: center;
     justify-content: space-between;
     display: flex;
-    height: 16.3px;
+    height: 0.01px;
     background-color: black;
     color: white;
     padding-top: 2em;
-    padding-bottom: 2em;
-    padding-left: 8em;
+    padding-bottom: 1.3em;
+    padding-left: ;
 }
 
 #ultop {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1em;
-    word-spacing: 1.6em;
-    margin-right: 158px;
+    font-size: 0.6em;
+    word-spacing: 2.5em;
+    margin-right: 460px;
+    margin-bottom: 20px;
 }
 
 .iscrivitiaccedi {
@@ -85,11 +86,12 @@ footer{
 }
 
 .spotify_logo{
-    margin-left: 0.34em;
+    margin-bottom: 0.8em;
+    margin-left: 29.2em;
     display: flex;
     align-items: flex-start;
-    width: 130px;
-    height: 40px;
+    width: 90px;
+    height: 27px;
 }
 
 table{

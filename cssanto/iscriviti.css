@@ -66,6 +66,7 @@ h1{
     transition-property: all;
     transition-duration: 0ms;
     transition: all  ease-in-out;
+    cursor: pointer;
 }
 
 #fblink:hover{
@@ -313,6 +314,7 @@ font-size: 14px;
     transition-property: all;
     transition-duration: 0ms;
     transition: all ease-in-out;
+    cursor: pointer;
 }
 #iscriviti:hover{
     background-color: #17de71;

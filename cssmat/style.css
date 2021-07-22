@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+    height: 70px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav img {
+    width: 120px;
+}
+
+header nav ul {
+    list-style: none;
+    color: #fff;
+    display: flex;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#premium-pass {
+    background-color: #1d75de;
+    padding: 50px 150px;
+}
+
+#premium-pass h1 {
+    font-size: 40px;
+    color: #fff;
+    padding: 20px 0
+}
+
+#premium-pass h2 {
+    color: #fff;
+    padding: 20px 0 30px 0
+}
+
+#premium-pass div {
+    display: flex;
+    align-items: center;
+    height: 80px
+}
+
+#premium-pass #container-button {
+    width: 145px;
+}
+
+#premium-pass div button {
+    padding: 15px 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    background-color: #000;
+    color: #fff
+}
+
+#premium-pass div button:hover {
+    padding: 16px 51px;
+    border-radius: 25px;
+    margin-left: -3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#premium-pass div a {
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#premium-pass div button:hover {
+    padding: 16px 51px;
+    border-radius: 25px;
+    margin-left: -3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#premium-pass div a {
+    padding: 16px 55px;
+    border-radius: 25px;
+    margin-left: -3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#premium-pass div a:hover {
+    padding: 16px 55px;
+    border-radius: 25px;
+    margin-left: -3px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #1a69c7;
+}
+
+#premium-pass small {
+    color: #fff;
+}
+
+small span {
+    border-bottom: 1px solid #fff
+}
+
+#why-premium {
+    padding: 100px 0
+}
+
+#why-premium h2 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px
+}
+
+#container-general {
+    display: flex;
+    justify-content: center;
+}
+
+.container-cards {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px
+}
+
+.container-cards img {
+    width: 150px;
+    margin-bottom: 30px
+}
+
+.container-cards h3 {
+    line-height: 30px;
+    margin-bottom: 8px
+}
+
+#choose-premium {
+    background-color: #efefef;
+    padding: 100px 0;
+}
+
+#choose-premium div {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#choose-premium div h2 {
+    font-size: 40px;
+}
+
+#choose-premium div p {
+    font-size: 16px;
+}
+
+#container-general2 {
+    display: flex;
+    justify-content: center;
+}

@@ -4,8 +4,8 @@ html{
 }
 
 body {
-  margin: 40px auto;
-  max-width: 450px;
+    margin: 40px auto;
+    max-width: 450px;
     font-family: Arial, sans-serif;
     background-color: white;
     text-align: left;
@@ -37,6 +37,7 @@ h1{
     color:#00bb2d;
     text-decoration: underline;
       }
+
 .greentext:hover {
     color: #17de71
      ;
@@ -49,7 +50,8 @@ h1{
     font-weight: bold;
     margin: 30px;
     text-align: center;
-}  
+} 
+
 #fblink{
     border: 2px solid white;
     width: 220px;
@@ -65,13 +67,17 @@ h1{
     transition-duration: 0ms;
     transition: all  ease-in-out;
 }
+
 #fblink:hover{
     background-color: #2784fb ;
     transform: scale(1.05);
     position: ;
     font-size: ;
 }
+
 #fblink:active {
+    outline: none;
+    box-shadow: none;
     background-color:;
     border: 5px solid gray;
 }
@@ -344,7 +350,7 @@ h4{
 
 /*trying area*/
 .boxpazzo:hover {
-    border-color: pink ;
+    border-color: 1px solid pink ;
   }
   
   #terminiecondizioni:hover {

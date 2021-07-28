@@ -24,7 +24,8 @@ body {
 
 /* Iscriviti gratuitamente per
 iniziare ad ascoltare. */
-h1{
+h1{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 40px auto;
     text-align: center;
     font-size: 30px;
@@ -346,8 +347,13 @@ h4{
    
 }
 #captchamove:hover {
+    background-color:cornflowerblue;
     width: 400px;
     height: 60px;
+}
+
+#sfondocap {
+    background-color: cornflowerblue;
 }
 
 /*trying area*/
@@ -359,8 +365,12 @@ h4{
       background-color: red;
   }
   #textcaptchamove{
+      font-size: 10px;
       display: inline;
       position: relative;
+      top: -35px;
       left: 20px;
   }
-  
+   #priterm {
+       margin-left: 70px;
+   }

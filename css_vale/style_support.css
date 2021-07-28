@@ -206,3 +206,13 @@ footer {
 .box11 a h6:hover {
   color: #1ed760;
 }
+
+.box11 span {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.svg-inline--fa {
+  padding-right: 10px;
+}

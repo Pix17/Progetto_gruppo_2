@@ -79,6 +79,12 @@ h4 {
   margin-bottom: 1em;
 }
 
+h6 {
+  color: #919496;
+  font-size: 12px;
+  text-align: left;
+}
+
 .box5 {
   margin: 2.5rem auto;
 }
@@ -193,29 +199,10 @@ footer {
   justify-content: space-around;
 }
 
-.box10 a.change-c span.insta,
-span.tweet,
-span.facebook {
-  display: block;
-  width: 27px;
-  height: 27px;
+.box10 a:hover {
+  color: #1ed760;
 }
 
-.box10 a.change-c {
-  background-color: #fff;
-}
-
-.insta {
-  background: url("../img/insta.svg") no-repeat;
-  padding: 10px;
-}
-
-.tweet {
-  background: url("../img/tweet.svg") no-repeat;
-  padding: 10px;
-}
-
-.facebook {
-  background: url("../img/face.svg") no-repeat;
-  padding: 10px;
+.box11 a h6:hover {
+  color: #1ed760;
 }

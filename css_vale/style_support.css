@@ -30,6 +30,7 @@ ul {
 main {
   background: url("../img/search-mobile.webp") no-repeat center;
   background-size: cover;
+  padding: 3rem 0;
 }
 
 .box3 h1 {
@@ -201,6 +202,10 @@ footer {
 
 .box10 a:hover {
   color: #1ed760;
+}
+
+.box11 {
+  margin: 4.5rem 0;
 }
 
 .box11 a h6:hover {

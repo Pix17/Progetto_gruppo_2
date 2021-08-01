@@ -2,7 +2,6 @@ body {
     margin: auto;
 }
 .navbar{
-    margin-left: ;
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -11,7 +10,6 @@ body {
     color: white;
     padding-top: 2em;
     padding-bottom: 1.3em;
-    padding-left: ;
 }
 
 #ultop {
@@ -52,19 +50,50 @@ a{
 
 }
 
-.scarica{
+#scarica{
     color: black;
     border-color: white;
-    border-radius: 2em;
+    padding: 16px 28px;
+    background-color: white;
+    border-radius: 100px;
+    justify-items: center;
+    font-weight: 549;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-property: all;
+    transition:all ease-in-out;
+    transition-duration: 0ms;
+}
+
+#scarica:hover{
+    color: black;
+    border-color: white;
+    padding: 18px 28px;
+    background-color: white;
+    border-radius: 100px;
+    justify-items: center;
+    font-weight: 550;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .dl-screen{
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #19e68c;
     text-align: center;
 }
 
+.dl-text{
+    padding-bottom: 50px;
+}
+
 .mobile{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .devices{
@@ -73,8 +102,10 @@ a{
     justify-content: center;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    word-spacing: 10px;
     padding-top: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 5em;
 }
 
 footer{
@@ -83,6 +114,7 @@ footer{
     text-decoration-color: white;
     color: white;
     text-align: center;
+    margin: 0;
 }
 
 .spotify_logo{

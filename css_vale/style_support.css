@@ -240,7 +240,6 @@ footer {
   }
 
   .box1 {
-    width: 100%;
     margin: 1.5rem auto;
   }
 
@@ -253,7 +252,7 @@ footer {
   }
 
   .box4 input {
-    width: 50px;
+    width: 70%;
   }
 
   .column3 {
@@ -269,20 +268,11 @@ footer {
   }
 
   .box5 {
-    width: 100%;
     text-align: center;
-  }
-
-  .box6 {
-    width: 100%;
   }
 
   .box6 ul a li {
     padding: 0.3rem 0;
-  }
-
-  .box8 {
-    width: 100%;
   }
 
   .box8 a img {
@@ -299,6 +289,10 @@ footer {
     margin-bottom: 4.5rem;
   }
 
+  .box1,
+  .box5,
+  .box6,
+  .box8,
   .box10,
   .box11 {
     width: 100%;
